@@ -1,0 +1,83 @@
+\documentclass[10.8pt]{article} % hafif küçültüldü
+
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\pagestyle{empty}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=darkblue,
+    linkcolor=darkblue
+}
+
+\renewcommand{\familydefault}{\rmdefault}
+
+% Başlık biçimi (alt boşluk azaltıldı)
+\titleformat{\section}{
+  \vspace{2pt}\scshape\large\raggedright
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\setlength{\parskip}{1pt} % satır arası mesafe azaltıldı
+\setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*, label=\textbullet}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Merve Kömür}} \\
+    \small mmervekomur@gmail.com \quad | \quad +90 530 702 3973 \\
+    İstanbul, Türkiye \quad | \quad 
+    \href{https://linkedin.com/in/mervekomur}{linkedin.com/in/mervekomur} \quad | \quad
+    \href{https://github.com/mervekomur}{github.com/mervekomur}
+\end{center}
+
+\section*{Profile}
+Computer Engineering student with 3+ years of experience in AI, embedded systems, and NLP. Skilled in Python and modern ML/NLP libraries. Passionate about developing end-to-end solutions with real-world impact, especially in data-driven environments.
+
+\section*{Projects}
+\textbf{Detection of Postpartum Depression via NLP on Turkish Social Media} \\
+\textit{Lead Researcher – TÜBİTAK 2209/A Funded} \hfill Mar 2024 – Aug 2024
+\begin{itemize}
+  \item Led a 4-member team to build a classification pipeline for detecting depression from over 10,000 scraped user comments.
+  \item Used Scrapy, Zemberek, and TF-IDF to preprocess and label text data; built FFNN, LSTM, and BERT models with TensorFlow and Keras.
+  \item Final model achieved 98\% accuracy; dataset structured via 7 Python modules (scraping, cleaning, modeling, evaluation, etc.).
+  \item Tools: Python, Pandas, scikit-learn, TensorFlow, Keras, HuggingFace Transformers, SentenceTransformers.
+\end{itemize}
+
+\section*{Education}
+\textbf{B.S. in Computer Engineering} \hfill Doğuş University \hfill Expected: 2027 \\
+Transferred from Mathematics department \\
+Relevant Coursework: Linear Algebra, Real Analysis, Numerical Methods, Differential Equations, Functional Analysis
+
+\textbf{B.S. in Mathematics} \hfill Çanakkale Onsekiz Mart University \hfill 2023 \\
+Transferred to Computer Engineering
+
+
+\section*{Skills}
+Python, C++, TensorFlow, Keras, PyTorch, scikit-learn, Pandas, NumPy, BeautifulSoup, Scrapy, Zemberek, spaCy, HuggingFace Transformers, SentenceTransformers, Data Science, Deep Learning, Machine Learning, NLP, Web Scraping, Git
+
+\section*{Languages}
+English, French, Turkish
+
+\section*{Certificates}
+CCNA: Enterprise Networking, Security and Automation – Cisco, 
+CCNA: Switching, Routing and Wireless Essentials – Cisco, 
+CCNA: Introduction to Networks – Cisco, 
+DevNet Associate – Cisco, 
+Neural Networks and Deep Learning – DeepLearning.AI, 
+Convolutional Neural Networks – DeepLearning.AI, 
+Improving Deep Neural Networks – DeepLearning.AI, 
+Sequence Models – DeepLearning.AI, 
+Structuring Machine Learning Projects – DeepLearning.AI
+
+\section*{References}
+Ersin Uyar – HPE Aruba Networking Country Manager, \href{mailto:ersin.uyar@hpe.com}{ersin.uyar@hpe.com}
+
+\end{document}
